@@ -29,11 +29,13 @@ Embedded-System/
 
      ``` url = 'http://172.31.52.183:8123' ```
    - Android Studio project files
+
      ├── MainActivity.kt
 
      │   ``` // Todo: Change to the current IPv4 address ```
 
      │   ``` .url("http://172.31.52.183:8123/upload/") ```
+
      └── FrameListActivity.kt
 
          ``` // Todo: Change to the current IPv4 address ```
