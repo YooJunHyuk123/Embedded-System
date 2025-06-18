@@ -7,26 +7,37 @@
 
 ## 📂 Project Structure
 Embedded-System/
+
 ├── Project/              # Android Studio source code
+
 ├── Other files/          # Python scripts and additional server resources
+
 └── README.md
 
 ## ⚙️ Installation
 1. Clone the repository
+
    ```git clone https://github.com/YooJunHyuk123/Embedded-System.git```
-2. Install the required Python libraries
-   ```pip install ultralytics opencv-python fastapi uvicorn```
 3. Install the required Python libraries
-4. Configure server and app URLs
+
+   ```pip install ultralytics opencv-python fastapi uvicorn```
+5. Install the required Python libraries
+6. Configure server and app URLs
    - Server.py
+
      ``` # Todo: Change to the current IPv4 address ```
+
      ``` url = 'http://172.31.52.183:8123' ```
    - Android Studio project files
      ├── MainActivity.kt
+
      │   ``` // Todo: Change to the current IPv4 address ```
+
      │   ``` .url("http://172.31.52.183:8123/upload/") ```
      └── FrameListActivity.kt
+
          ``` // Todo: Change to the current IPv4 address ```
+
          ``` .url("http://172.31.52.183:8123/frame_list/") ```
 
 ## 🚀 Usage
@@ -37,10 +48,10 @@ Embedded-System/
 5. The detected image is returned to the app and displayed to the user
 
 ## ✨ Features
-📱 Mobile Recording - Capture potential violations via the Android app
-📤 Video Upload - Automatically uploads videos to the server
-🎯 Object Detection - YOLO detects vehicles from uploaded videos
-🖼️ Image Feedback - Server returns image with detection to the app
+- 📱 Mobile Recording - Capture potential violations via the Android app
+- 📤 Video Upload - Automatically uploads videos to the server
+- 🎯 Object Detection - YOLO detects vehicles from uploaded videos
+- 🖼️ Image Feedback - Server returns image with detection to the app
 
 ## 🛠️ Tech Stack
 - Android Studio - Mobile app development
@@ -54,7 +65,7 @@ Embedded-System/
 
 ## 📞 Contact
 - Have questions or suggestions?
-📧 Email: 32212808@dankook.ac.kr
+- 📧 Email: 32212808@dankook.ac.kr
 
 ## 🔗 Link
 - GitHub: [Embedded-System Repository](https://github.com/YooJunHyuk123/Embedded-System)
