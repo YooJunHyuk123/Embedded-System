@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/Dataset/images/train
+val: /content/drive/MyDrive/Dataset/images/val
+
+nc: 1
+names: ['illegal parking']

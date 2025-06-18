@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="record_start">Start recording</string>
+    <string name="record_session_failed">Record session failed</string>
+    <string name="record_stop">Stop recording</string>
+    <string name="record_complete">Record complete: %1$s</string>
+    <string name="preview_failed">Preview failed</string>
+</resources>

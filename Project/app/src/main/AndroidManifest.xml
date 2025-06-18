@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project"> <!-- Default package name-->
+
+    <!-- Uses-permission -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- External storage read uses-permission-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- External storage write uses-permission -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Camera uses-permission -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Audio record uses-permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Uses-feature -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+
+
+    <!-- Application tag -->
+    <application
+        android:label="Project"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:usesCleartextTraffic="true">
+
+        <!-- Main activity -->
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sub activity -->
+        <activity android:name=".FrameListActivity" />
+
+    </application>
+</manifest>

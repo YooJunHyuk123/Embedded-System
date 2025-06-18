@@ -1,0 +1,5 @@
+train: C:/Users/yjh71/Desktop/JH/Student/Grade3/Semester1/Embeddedsystem/Project/Dataset/images/train/CarDay
+val: C:/Users/yjh71/Desktop/JH/Student/Grade3/Semester1/Embeddedsystem/Project/Dataset/images/val/CarDay
+
+nc: 1
+names: ['illegal parking']
