@@ -71,5 +71,5 @@ Embedded-System/
 
 ## 🔗 Link
 - GitHub: [Embedded-System Repository](https://github.com/YooJunHyuk123/Embedded-System)
-- Youtube: [Embedded-System Final Project Presentation](https://www.youtube.com/watch?v=lOunVyQDzFk) // Todo: 추가 예정
+- Youtube: [Embedded-System Final Project Presentation](https://www.youtube.com/watch?v=lOunVyQDzFk)
 - PPT: [Detect illegal Parking - Google Slides](https://docs.google.com/presentation/d/1EHkSGUdTULNgVMy-MlKMbvdZi-SJNLFYwIvmaIo9ekc/edit?slide=id.g36941580fdb_4_12#slide=id.g36941580fdb_4_12)
